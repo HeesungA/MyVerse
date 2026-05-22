@@ -356,7 +356,7 @@ function AutomationForm({ initial, onSave, onClose }: {
                     )}
                   </div>
                   <div>
-                    <label className="label">#{메시지} 내용 (자유 입력)</label>
+                    <label className="label">{"#{메시지} 내용 (자유 입력)"}</label>
                     <textarea value={form.kakao_custom_message}
                       onChange={(e) => set("kakao_custom_message", e.target.value)}
                       rows={3} className="input resize-none text-sm"
