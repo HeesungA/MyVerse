@@ -7,6 +7,7 @@ class Settings(BaseSettings):
     solapi_api_key: str = ""
     solapi_api_secret: str = ""
     solapi_sender: str = ""
+    anthropic_api_key: str = ""
 
     class Config:
         env_file = ".env"
